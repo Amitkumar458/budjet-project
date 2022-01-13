@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> your budjet </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="bodypage">
+        <div id="firstrow">
+            <div>
+                <h2 id="heading"> BUDGET APP </h2>
+                <div class="box1">
+                    <div> Please Enter Your Budjet </div>
+                    <input type="number" class="amount" name="lname" id="lname" placeholder="Enter Your Budjet"><br>
+                    <button type="button" onClick="pr()" class="btn1"> Calculate </button>
+                </div>
+            </div>
+            <div>
+                <div class="box2">
+                    <div> Please Enter Your Expense </div>
+                    <input type="text" class="amount" id="expenseobj" placeholder="Enter Expense"> <br>
+                    <div> Please Enter Expense Amount </div>
+                    <input type="number" class="amount" name="expenseamount" id="expenseamount"
+                        placeholder="Enter Expense Amount"> <br>
+                    <button class="btn1" onclick="expenseclick()">Calculate</button>
+                    <div id="warning"></div>
+                </div>
+            </div>
+        </div>
+        <div id="secondrow">
+            <div id="secondrow1">
+                <div class="box3">
+                    <h2>BUDGET</h2>
+                    <div class="logo"><i class="fas fa-money-check-alt"></i></div>
+                    <div class="price1">$ <span id="budjetprice"> 0 </span></div>
+                </div>
+                <div class="box3">
+                    <h2>EXPENSES</h2>
+                    <div class="logo"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="price2">$ <span id="expenseprice"> 0 </span> </div>
+                </div>
+                <div class="box3">
+                    <h2>BALANCE</h2>
+                    <div class="logo"><i class="fas fa-dollar-sign"></i></div>
+                    <div class="price1">$ <span id="balanceprice"> 0 </span> </div>
+                </div>
+            </div>
+            <div class="secondrow2">
+                <div class="row1">
+                    <div>
+                        Expense Title
+                    </div>
+                </div>
+                <div class="row1">
+                    <div>
+                        Expense Value
+                    </div>
+                </div>
+                <div class="row1">
+                    <div>
+                    &nbsp; Edit/Delete   
+                    </div>
+                </div>
+            </div>
+            <div class="secondrow2 gfg">
+                <div class="row1">
+                    <div class="item" id="expenseitemadd"></div>
+                </div>
+                <div class="row1">
+                    <div class="item" id="expenseamountadd"></div>
+                </div>
+                <div class="row1">
+                    <div class="item" id="iconadd"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="./index.js"></script>
+</body>
+
+</html>

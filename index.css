@@ -1,0 +1,142 @@
+*{
+    background-color: rgb(255, 240, 240);
+}
+.box1 {
+   border: 0.125rem solid rgb(43, 223, 43);
+   width: 28rem;
+   margin: 2.81rem 2.81rem;
+   padding: 1.25rem;
+   border-radius: 0.19rem;
+   font-size: 1.2rem;
+}
+
+.box2 {
+   border: 0.125rem solid rgb(223, 43, 43);
+   width: 28rem;
+   margin: 3.69rem 2.8rem;
+   padding: 1.25rem;
+   border-radius: 0.187rem;
+   font-size: 1.2rem;
+}
+
+.btn1{
+    border: 1px solid rgb(109, 224, 86);
+    border-radius: 2px;
+    font-size: 1.2rem;
+}
+
+.amount{
+    border: 1px solid rgb(109, 224, 86);
+    border-radius: 2px;
+    margin: 0.93rem 0rem;
+    width: 95%;
+    font-size: 1.2rem;
+}
+
+#heading{
+    margin: 1.875rem 3.125rem;
+    
+}
+
+#secondrow1{
+    display: flex;
+    margin-top: 1.75rem;
+}
+
+.box3{
+    margin: 2.8rem 0rem;
+    width: 13rem;
+    text-align: center;
+}
+
+#bodypage{
+    display: flex;
+}
+
+.price1{
+    font-size: 2.08rem;
+    color: rgb(7, 250, 68);
+}
+
+.price2{
+    font-size: 2.08rem;
+    color: rgb(248, 0, 0);
+}
+
+.logo{
+    color: rgb(27, 27, 245);
+    font-size: 3.2rem;
+}
+
+.secondrow2{
+     display: flex;
+     margin-left: 1.2rem;
+}
+
+#warning{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.row1{
+    width: 12rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.item{
+    color: red;
+    margin: 0.8rem 0rem;
+}
+
+.editicon{
+    color: blue;
+}
+
+.icon{
+    margin: 0rem 4rem;
+}
+div.gfg {
+    background-color: rgb(255, 240, 240);
+    width: 37.5rem;
+    height: 16rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+@media (max-width: 600px) {
+    #bodypage{
+        display: inline-block;
+    }
+    .box2{
+        margin: 0rem 1rem;
+        width:35rem;
+        font-size: 2rem;
+    }
+    .box1{
+        font-size: 2rem;
+        margin: 1rem;
+        width:35rem;
+    }
+    .amount{
+        height: 3rem;
+        font-size: 2rem;
+    }
+    .btn1{
+        font-size: 2rem;
+        height: 3.5rem;
+        width: 14rem;
+        text-align: left;
+        border-radius: 0.5rem;
+    }
+    #heading{
+        font-size: 2.5rem;
+    }
+    .row1{
+        font-size: 1.9rem;
+    }
+    .gfg{
+        margin-bottom: 5rem;
+    }
+}
